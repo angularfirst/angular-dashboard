@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="Styles.css" />
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/chart.js/dist/Chart.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-light"
+      style="background-color: rgba(236, 233, 233, 0.6)"
+    >
+      <a href="index.html" class="navbar-brand">
+        <img src="./images/india.svg" style="width: 32px" alt="India" />India
+        Tourism
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#mynav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a href="destinations.html" class="nav-link">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a href="contacts.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="MICE.html" class="nav-link">MICE</a>
+          </li>
+          <li class="nav-item">
+            <a href="register.html" class="nav-link">Register</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">Login</a>
+          </li>
+        </ul>
+      </div>
+      <form class="form-inline">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="search">
+              <i class="fa fa-search"></i>
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Search" />
+        </div>
+        <button class="btn btn-warning my-2 my-sm-0">Search</button>
+      </form>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-lg-3"
+          style="background-color: #e0dada; min-height: 1000px"
+        >
+          <div class="row">
+            <div
+              class="col-11 pb-2 pt-2 text-white text-center mx-2 font-weight-bold"
+              style="
+                background-color: #a39e9e;
+                font-family: Arial Narrow Bold, sans-serif;
+              "
+            >
+              PROCUREMENT MANAGER
+            </div>
+            <div class="col-12 text-center mt-2">
+              <img src="images/user.png" alt="user" />
+            </div>
+            <div
+              class="col-12 font-weight-bold text-center pt-2 pb-2"
+              style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+            >
+              John Smith
+            </div>
+            <div
+              class="col-12 pt-2 pb-2 text-center"
+              style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+            >
+              KEY MEASURES
+            </div>
+            <div class="col-12 mb-3">
+              <ul class="list-group">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Managed Suppliers
+                  <span
+                    class="badge badge-secondary rounded-pill"
+                    style="font-size: 13px"
+                    >67</span
+                  >
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Managed Spending
+                  <span
+                    class="badge badge-secondary rounded-pill"
+                    style="font-size: 13px"
+                    >$ 240k</span
+                  >
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  New Contacts
+                  <span
+                    class="badge badge-secondary rounded-pill"
+                    style="font-size: 13px"
+                    >16</span
+                  >
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Value Added
+                  <span
+                    class="badge badge-secondary rounded-pill"
+                    style="font-size: 13px"
+                    >$ 24k</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-12 pt-2 pb-2 text-center"
+              style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+            >
+              KEY ACTIONS
+            </div>
+            <div class="col-12 mb-3">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  Renew Partner contracts with discount rate lower than 5%
+                </li>
+                <li class="list-group-item">
+                  Register top 5 unlisted suppliers
+                </li>
+                <li class="list-group-item">
+                  Reach compliance agreement with Big Company LLC
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">Second</div>
+        <div
+          class="col-lg-3"
+          style="background-color: #e0dada; min-height: 1000px"
+        >
+          Third
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
